@@ -4,7 +4,7 @@ function init(){
   function showMeText(){
     var textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
-    alert("Anthony Tetrev: " + textbox.value);
+    alert("Madison Amari: " + textbox.value);
   }
 
   button.addEventListener('click', showMeText);
